@@ -1,0 +1,292 @@
+.logo{
+  width: 1200px;
+  margin-left: 6%;
+  margin-top:3%;
+}
+.logo>img{
+  background-color: #48CFBE;
+}
+.relatedInformation{
+  float: left;
+  margin-left: 6%;
+  width: 1200px;
+  margin-top: 1%;
+}
+.left{
+  float: left;
+  background-color: #F2F2F2;
+  width:130px;
+  height: 1200px;
+  font-size: 14px;
+  color: #343434;
+}
+.left>.personalInformation{
+  margin-left: 14%;
+  margin-top: 14%;
+}
+.left>.personalInformation>img{
+  width: 80px;
+  height: 100px;
+  margin-left:5%; 
+}
+.left>.personalInformation>.information>hr{
+  color: #858585;
+}
+.left>.personalInformation>.information>.personal,.safe{
+  color: #858585;
+}
+.left>.personalInformation>.address{
+  background-color: #fff;
+  margin-left: -16%;
+  height: 40px;
+  padding-left:15%;
+  padding-top:1%;
+  color: #70B09F;
+}
+.right{
+  float: left;
+  width: 1056px;
+  margin-left: 1%;
+}
+.right>.shippingAddress{
+  width: 1056px;
+  background-color: #E7F7F4;
+  height: 30px;
+  margin-top: -1.5%;
+  font-size: 14px;
+  color: #3D4746;
+}
+.right>.shippingAddress>p{
+  padding-left: 1.5%;
+  padding-top: 0.5%;
+}
+.right>.newlyIncreasedAddress{
+  font-size: 14px;
+  color: #3D4746;
+/*   margin-left: 2.5%; */
+  background-color:#F6F6F6;
+}
+.right>.newlyIncreasedAddress>p{
+  padding-left: 2.5%;
+}
+.right>.newlyIncreasedAddress>.chooseAddress{
+  font-size: 12px;
+  float: left;
+}
+.right>.newlyIncreasedAddress>table{
+  margin-left: 9%;
+  margin-top: 2%;
+}
+.right>.newlyIncreasedAddress>.city{
+  float: left;
+  margin-top: -2.7%;
+  margin-left: 10%;
+}
+.right>.newlyIncreasedAddress>.city>tbody>tr>td>span>select{
+  width: 290px;
+}
+.sign{
+  color: red;
+}
+.right>.newlyIncreasedAddress>.mark{
+  font-size: 12px;
+}
+.right>.newlyIncreasedAddress>p>.location{
+  
+}
+.right>.newlyIncreasedAddress>.mark>input{
+  width: 380px;
+  height: 80px;
+  font-size: 12px;
+  margin-left: 1%;
+}
+.right>.newlyIncreasedAddress>.postalCode{
+  font-size: 12px;
+}
+.right>.newlyIncreasedAddress>.postalCode>input{
+  font-size: 12px;
+  width: 220px;
+  margin-left: 2%;
+}
+.name{
+  font-size: 12px;
+}
+.name>input{
+  width: 220px;
+}
+.cell-phoneNumber{
+  float: left;
+  font-size: 12px;
+}
+
+.cellPhone>tbody>tr>td>span>select{
+  margin-left:1%;
+  width: 120px;
+  float: left;
+/*   display: inline; */
+}
+.instruction1{
+  margin-left: 15%;
+  margin-top: -2.5%;
+  float: left;
+}
+.instruction1>input{
+  width: 220px;
+  font-size: 12px;
+}
+.phoneNumber{
+  font-size: 12px;
+  float: left;
+}
+.phonenumber>tbody>tr>td>span>select{
+  
+  width: 120px;
+  float: left;
+}
+.instruction2{
+  float: left;
+  margin-top:-2.5%;
+  margin-left: 15%;  
+}
+.setUp{
+  margin-left: 6.2%;
+  font-size: 12px;
+  color: #4A4A4A;
+}
+.conservation{
+  margin-left: 6%;
+}
+.conservation>button{
+  background-color: #30C3A7;
+  width: 80px;
+  height: 32px;
+}
+.dottedLine{
+  border: 1px dashed #CECECE;
+}
+.conservationAddress>p{
+  color: #838383;
+  margin-top: -0.5%;
+}
+.conservationAddress>p>span{
+  color: #F7CA89;
+}
+.conservationAddress{
+  float: left;
+  width: 1056px;
+  color: #717B7A;
+}
+.conservationAddress>.addressDescription{
+  width: 1056px;
+  height: 38px;
+  float: left;
+  background-color: #E7F7F4;
+}
+.conservationAddress>.addressDescription{
+  float: left;
+  width: 1056px;
+  font-size: 14px;
+}
+.conservationAddress>.addressDescription>.index{
+/*   background-color: red; */
+  width: 40px;
+  float: left;
+  text-align: center;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.clientName{
+  float: left;
+  width: 120px;
+  margin-left: 2%;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.clientAddress{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.detailedAddress{
+  float: left;
+  width:190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.postalCode{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.number{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.addressDescription>.edit{
+  float: left;
+  width: 100px;
+  text-align: left;
+  padding-top: 1%;
+}
+
+
+.conservationAddress>.address1{
+  width: 1056px;
+  height: 55px;
+  float: left;
+  font-size: 12px;
+}
+.conservationAddress>.address1>.index1{
+/*   background-color: red; */
+  width: 40px;
+  float: left;
+  text-align: center;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.clientName1{
+  float: left;
+  width: 120px;
+  margin-left: 2%;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.clientAddress1{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.detailedAddress1{
+  float: left;
+  width:190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.postalCode1{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.number1{
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 1%;
+}
+.conservationAddress>.address1>.edit1{
+  float: left;
+  width: 100px;
+  text-align: left;
+  padding-top: 1%;
+  font-size: 14px;
+}
+.conservationAddress>.address1>.edit1>span{
+  color: #81BED0;
+}
+.conservationAddress>.address1>.edit1>.division{
+  color: #717B7A;;
+}

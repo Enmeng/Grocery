@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>新建地址</title>
+	<link rel="stylesheet" type="text/css" href="../css/新建地址.css">
+	
+</head>
+<body>
+    <div class="logo">
+    	<img src="../image/logo.png">
+    </div>
+    <div class="relatedInformation">
+    <div class="left">
+    	<div class="personalInformation">
+    		<img src="../image/水果.png">
+    		<div class="information">
+    			<p>账号管理</p>
+    			<hr class="line1">
+    			<p class="safe">安全管理</p>
+    			<hr class="line2">
+    			<p class="personal">个人资料</p>
+    		</div>
+    		<div class="address"><p>收货地址</p></div>
+    	</div>
+    </div>
+    
+    <div class="right">
+    	<div class="shippingAddress">
+    		<p>收货地址</p>
+    	</div>
+    	<div class="newlyIncreasedAddress">
+    		<p>新增收货地址</p>
+    		<p class="chooseAddress">
+    		   <span>所在地区</span>
+    		   <span class="sign">*</span>
+    		      <table>
+    		        <tr>
+    		            <td align="left">
+    		              <span>
+    		                <select name="area" id="area">
+    		                  <option value="中国大陆">中国大陆</option>
+    		                  <option value="其他">其他</option>
+    		               </select>
+    		              </span>
+    		            </td>
+    		        </tr>
+    		      </table>
+    		      <table class="city">
+    		        <tr>
+    		            <td align="left">
+    		              <span>
+    		                <select name="area" id="area">
+    		                  <option value="北京">北京</option>
+    		                  <option value="广州">广州</option>
+    		               </select>
+    		              </span>
+    		            </td>
+    		        </tr>
+    		      </table>
+   		    </p>
+   		    <p class="mark">
+   		       <span class="location">所在地区</span>
+   		       <span class="sign">*</span>
+   		    	<input type="text" name="description" class="description" placeholder="建议您如实填写详细的收货地址，如街道名称，门牌号码，楼层和房间号等信息">
+   		    </p>
+   		    <p class="postalCode">
+   		    	<span>邮政编码</span>
+   		    	<input type="text" placeholder="如您不清楚，请填写000000">
+   		    </p>
+   		    <p class="name">
+   		    	<span>收货人姓名</span>
+   		    	<span class="sign">*</span>
+   		    	<input type="text" placeholder="长度不超过10字符">
+   		    </p>
+   		    <p class="cell-phoneNumber">
+   		    	<span>手机号码</span>
+   		    	<table class="cellPhone">
+    		        <tr>
+    		            <td align="left">
+    		              <span>
+    		                <select name="cell-phoneNumber">
+    		                  <option value="中国大陆+86">中国大陆+86</option>
+    		                  <option value="其他">其他</option>
+    		               </select>
+    		              </span>
+    		            </td>
+    		        </tr>
+    		      </table>
+    		      <div class="instruction1">
+    		      	<input type="text" placeholder="电话号码、手机号码必须填一项">
+    		      </div>
+   		    </p>
+   		    <p class="phoneNumber">
+   		    	<span>电话号码</span>
+   		    	<table class="phonenumber">
+    		        <tr>
+    		            <td align="left">
+    		              <span>
+    		                <select name="phoneNumber">
+    		                  <option value="中国大陆+86">中国大陆+86</option>
+    		                  <option value="其他">其他</option>
+    		               </select>
+    		              </span>
+    		            </td>
+    		        </tr>
+    		      </table>
+    		      <div class="instruction2">
+    		      	<input type="text" placeholder="区号">
+    		      <span>——</span>
+    		      <input type="text" placeholder="电话号码">
+    		      </div>
+   		    </p>
+   		    <p class="setUp">
+   		          <input type="checkbox">
+   		          <span>设置为默认收货地址</span>
+   		    </p>
+   		    <p class="conservation">
+   		    	<button>保存</button>
+   		    </p>
+    	</div>
+
+    	<hr class="dottedLine">
+    	<div class="conservationAddress">
+    		<p>已保存了<span>9</span>个地址，还能保存<span>11</span>个地址</p>
+    		<div class="addressDescription">
+    			<div class="index">
+    				<span>#</span>
+    			</div>
+    			<div class="clientName">
+    				<span>收货人</span>
+    			</div>
+    		    <div class="clientAddress">
+    		    	<span>所在地址</span>
+    		    </div>
+    			<div class="detailedAddress">
+    				<span>详细地址</span>
+    			</div>
+    			<div class="postalCode">
+    				<span>邮编</span>
+    			</div>
+    			<div class="number">
+    				<span>电话号码</span>
+    			</div>
+    			<div class="edit">
+    				<span>编辑</span>
+    			</div>
+    		</div>
+
+
+            <div class="address1" id="address1">
+    			<div class="index1" id="index1">
+    				<span>1</span>
+    			</div>
+    			<div class="clientName1">
+    				<span>周星星</span>
+    			</div>
+    		    <div class="clientAddress1">
+    		    	<span>广东省&nbsp;广州市&nbsp;天河区&nbsp;五山街道</span>
+    		    </div>
+    			<div class="detailedAddress1">
+    				<span>广东省广州市天河区五山街道华南农业大学启林北54栋708</span>
+    			</div>
+    			<div class="postalCode1">
+    				<span>000000</span>
+    			</div>
+    			<div class="number1">
+    				<span>13888888888</span>
+    			</div>
+    			<div class="edit1">
+    				<span>修改</span>
+    				<span class="division">|</span>
+    				<span>删除</span>
+    			</div>
+    		</div>
+
+    	</div>
+    </div>
+       
+    </div>
+
+    <script type="text/javascript" src="../js/新建地址.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+
+.logoAndLogistics{
+	float: left;
+	width: 1200px;
+	margin-left:6%;
+}
+.logo{
+	background-color: #3DCBBB;	
+	float: left;
+	
+}
+.logo>img{
+	width: 150px;
+	margin-top: 2%;
+	float:left;
+}
+.logoAndLogistics>.logistics{
+	float: left;
+	margin-left: 71%;
+	color: #D0D0D0;
+/* 	width: 600px; */
+}
+.logoAndLogistics>.logistics>.rectangle1,.rectangle2,.rectangle3,.rectangle4,.rectangle5{
+	background-color: #c7dec6;
+  width: 60px;
+	height: 3px;
+	float:left;
+	margin-top: 1%;
+/* 	margin-left: 2%; */
+}
+.logoAndLogistics>.logistics>.rectangle1,.rectangle2{
+	background-color: #39C5AB;
+}
+.circle1,.circle2,.circle3{
+	width: 16px;
+	height: 16px;
+	background-color:#39C5AB;
+	border-radius: 50%;
+	
+	float: left;
+}
+.circle1>.index1,.circle2>.index2,.circle3>.index3{
+  color: #fff;
+	margin-top: -1%;
+	font-size: 12px;
+}
+.circle2,.circle3{
+	background-color: #CACACA;
+}
+.logistics>.description{
+	font-size: 12px;
+	margin-top: -1%;
+	margin-left: 1%;
+	width: 320px;
+	float: left;
+}
+.logistics>.description>p>span{
+	margin-left: 8%;
+}
+.logistics>.description>p>.firmOrder{
+	color: #39C5AB;
+}
+.logistics>.description>p>.confirmPayment{
+	margin-left: 22%;
+}
+.logistics>.description>p>.finishOrder{
+	margin-left: 12%;
+}
+.line1{
+	margin-top:5%;
+	width: 1200px;
+	display: block;
+	float: left;
+/* 	margin-left: 1%; */
+	
+}
+.logisticsInformation{
+	float: left;
+	margin-left: 5.5%;
+	width: 1200px;
+	color: #555555;
+}
+.logisticsInformation>.information1>.rectangle1{
+	width: 226px;
+	height: 120px;
+	border: 1px dotted blue;
+	float: left;
+	margin-left: 1%;
+}
+.logisticsInformation>.information1>.content1{
+	margin-left: -18%;
+	width: 180px;
+	float: left
+}
+.logisticsInformation>.information1>.content1>h1{
+	font-size: 10px;
+	opacity: 0.7;
+}
+.logisticsInformation>.information1>.content1>p{
+	font-size: 10px;
+}
+.logisticsInformation>.instruction{
+  font-size: 12px;
+	float:left;
+	color: #6DCCB8;
+	width: 100%;
+}
+.logisticsInformation>.instruction>p>.manageAddress{
+	margin-left: 76%;
+}
+.afforMethod{
+	width: 1200px;
+	height: 100px;
+	background-color: #E7F7F4;
+	float: left;
+	margin-left: 6%;
+	margin-top: 2%;
+	color:#3C4645;
+}
+.afforMethod>p{
+	font-size: 14px;
+	margin-left: 1%;
+}
+.afforMethod>.Method1{
+	margin-left: 1%;
+	float: left;
+}
+.afforMethod>.Method2,.afforMethod>.Method3,.afforMethod>.Method4{
+	margin-left: -2%;
+	float: left;
+}
+.afforMethod>.Method4{
+	margin-left: -3%;
+}
+.afforMethod>.Method1>.rectangle1,.afforMethod>.Method2>.rectangle2,
+.afforMethod>.Method3>.rectangle3,.afforMethod>.Method4>.rectangle4{
+	width: 80px;
+	height: 20px;
+	border: 1px solid #FF7C81;
+	background-color: #fff;
+	float: left;
+}
+.afforMethod>.Method1>.online,.afforMethod>.Method2>.wechat,
+.afforMethod>.Method3>.alipay,.afforMethod>.Method4>.Ondelivery{
+	font-size: 12px;
+	float: left;
+	margin-top: -7%;
+	margin-left: -50%;
+}
+.confirmOrder{
+	float: left;
+	margin-left: 6%;
+	margin-top: 1%;
+	width:1200px;
+	color: #3C4645;
+}
+.confirmOrder>h1{
+	font-size: 12px;
+	
+}
+.confirmOrder>p{
+	font-size: 12px;
+}
+.confirmOrder>p>strong{
+	margin-right: 9%;
+}
+.confirmOrder>p>span{
+	margin-left: 8%;
+}
+.confirmOrder>p>.shopName{
+	margin-left:-5%;
+}
+.confirmOrder>.information>img{
+	width: 80px;
+	height:80px;
+	display: inline;
+}
+.confirmOrder>.information>.description{
+	margin-left:13%;
+	margin-top: -8%;
+	margin-left: 7%;
+	font-size: 12px;
+	opacity:0.8;
+	width:170px;
+}
+.confirmOrder>.information>.description>.price{
+	color: red;
+	margin-top: -4%;
+}
+.confirmOrder>.information>.message{
+	width: 100%;
+	height: 30px;
+	background-color:#F2F2F2;
+	margin-top: 3%;
+}
+.confirmOrder>.information>.message>p{
+	font-size: 12px;
+}
+.confirmOrder>.information>.message>p>input{
+	width: 20%;
+}
+.confirmOrder>hr{
+	width: 1200px;
+	margin-left: -0%;
+}
+.confirmOrder>.information>.submit{
+	float: right; 
+/* 	margin-right: 2%; */
+}
+.confirmOrder>.information>.submit>button{
+	width: 120px;
+	height: 30px;
+	background-color: #2FC4A7;
+	color: #fff;
+}
+.confirmOrder>.information>.submit>p{
+	font-size: 12px;
+	margin-left:22%; 
+}
+.confirmOrder>.information>.submit>p>span{
+	color: red;
+	font-size: 14px;
+}

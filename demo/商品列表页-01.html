@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	<title>商品列表页-01</title>
+	<link rel="stylesheet" type="text/css" href="../css/商品列表页-01.css">
+   <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+<div class="leftSide">
+   <div class="logoAndSearch">
+   	<img src="../image/logo.png">
+  	<input type="text">
+   	<div class="rectangle">
+   			搜索
+   	</div>
+   	<br>
+   		<p>
+   		<span>雪梨</span>
+   		<span>|</span>
+   		<span>梨子</span>
+   		<span>|</span>
+   		<span>梨子</span>
+   		<span>|</span>
+   		<span>水果新鲜皇冠梨</span>
+   		<span>|</span>
+   		<span>酥梨</span>
+   		<span>|</span>
+   		<span>觞山梨</span>
+   		<span>|</span>
+   		<span>雪花梨</span>
+   		</p>
+   	<div class="shoppingCart">
+   		<img src="../image/购物车.png">
+   		<p>我的购物车</p>
+   	</div>
+   </div>
+   <div class="sort">
+   	<div class="description">
+   		<span>菜品分类</span>
+   		<img src="../image/箭头.png">
+   	</div>
+   	<div class="allSort">
+   		<div class="descriptionAndImg">
+   			<p>所有分类</p>
+   		    <img src="../image/箭头灰.png">
+   		</div>
+   		<!-- <div class="pickUp">
+   			<canvas></canvas>
+   		    <div class="content">
+   		    	<span>收起筛选</span>
+   	        <img src="../image/导航顶部.png">
+   		    </div>
+   		</div> -->
+   	</div>
+   	<div class="detial">
+   		<table width="200" border="1" cellspacing="0">
+      <tr>
+         <td>
+         <canvas></canvas>
+         <div class="brand"><span>品牌:</span></div>	
+         <span>百里洲砂梨</span>
+         <span>chinstudio</span>
+         <span>suyuan</span>
+         <span>阿婆雪梨</span>
+         <span>沙丁州梨</span>
+         <div class="Boption"><span>多选</span></div>
+         </td>
+      </tr>
+      <tr>
+         <td>
+         <canvas></canvas>
+         <div class="hotSpot"><span>选购热点:</span></div>	
+         <span>新鲜</span>
+         <span>有机</span>
+         <span>脆口</span>
+         <span>雪白</span>
+         <span>皮黄</span>
+         <div class="Soption"><span>多选</span></div>
+         </td>
+     </tr>
+     <tr>
+         <td>
+         <canvas></canvas>
+         <div class="province"><span>省份:</span></div>	
+         <span>广东</span>
+         <span>河南</span>
+         <span>湖南</span>
+         <span>湖北</span>
+         <span>浙江</span>
+         <span>新疆</span>
+         <span>内蒙古</span>
+         <span>四川</span>
+         <span>福建</span>
+         <span>福建</span>
+         <span>福建</span>
+         <span>福建</span>
+         <div class="Poption"><span>多选</span></div>
+         </td>
+     </tr>
+     </table>
+  
+
+     <table class="table2">
+      <tr>
+         <td class="comprehensive">综合排序</td>
+         <td><span>销量</span></td>
+         <td><span>价格</span></td>
+         <td><span>发布时间</span></td>
+         <td></td>
+      </tr>
+      </table>
+   	</div>
+   </div>
+
+
+   <div class="list">
+   	<div class="part1" id="part1">
+   	  	<div class="part1Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content1">
+   	  	    <div class="price1">￥15.50</div>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part1Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+   	  </div>
+
+   	  <div class="page">
+   	  	<button class="lastPage"><上一页</button>
+   	  	<span class="first">1</span>
+   	  	<button>2</button>
+   	  	<button>3</button>
+   	  	<button>4</button>
+   	  	<button>5</button>
+   	  	<button>6</button>
+   	  	<button>7</button>
+   	  	<span>...</span>
+   	  	<button class="nextPage">下一页></button>
+   	  	<span>共31页&nbsp;到第</span>
+   	  	<button class="index">1</button>
+   	  	<span>页</span>
+   	  	<button class="confirm">确定</button>
+   	  </div>
+   	  <div class="prompt">
+   	  	<p>
+   	  		您是不是想找：
+   	  		<span>梨</span>
+   	  		<strong>|</strong>
+   	  		<span>雪梨膏</span>
+   	  		<strong>|</strong>
+   	  		<span>水果</span>
+   	  		<strong>|</strong>
+   	  		<span>赵州雪梨</span>
+   	  		<strong>|</strong>
+   	  		<span>苹果</span>
+   	  		<strong>|</strong>
+   	  		<span>皇冠梨</span>
+   	  		<strong>|</strong>
+   	  		<span>苹果</span>
+   	  		<strong>|</strong>
+   	  		<span>鲜橙多</span>
+   	  		<strong>|</strong>
+   	  		<span>鸭梨</span>
+   	  		<strong>|</strong>
+   	  		<span>樱桃</span>
+   	  		<strong>|</strong>
+   	  		<span>葡萄</span>
+   	  		<strong>|</strong>
+   	  		<span>西瓜</span>
+   	  		<strong>|</strong>
+   	  		<span>琵琶</span>
+   	  		<strong>|</strong>
+   	  		<span>雪梨同款</span>
+   	  		<strong>|</strong>
+   	  		<span>贡梨</span>
+   	  		<strong>|</strong>
+   	  		<span>水晶梨</span>
+   	  		<strong>|</strong>
+   	  		<span>复式梨</span>
+   	  		
+   	  	
+   	  	</p>
+   	  	<div class="search">
+   	  		<span>重新搜索：</span><input type="text">
+   	  		<button class="description">搜索</button>
+   	  	</div>
+   	  </div>
+
+       <div class="clearfix"></div>
+   	  <div class="supplyment row">
+   	  	<hr class="thirdLine">
+   	  		<div class="affordMethod col-sm-3">
+   	  			<img src="../image/支付方式.png">
+   	  			<p>支付方式</p>
+   	  			<span class="kuaijie">快捷支付</span>
+   	  			<span class="zhifubao">支付宝</span>
+   	  			<br>
+   	  			<span class="xinyongka">信用卡</span>
+   	  			<span class="huodaofukuan">货到付款</span>
+   	  			<div class="excisionLine1"></div>
+   	  		</div>
+
+            <div class="service col-sm-3">
+   	  			<img src="../image/商家服务.png">
+   	  			<p>商家服务</p>
+   	  			<span class="gonghuo">我要供货</span>
+   	  			<span class="wuliufuwu">物流服务</span>
+   	  			<br>
+   	  			<span class="gonghupoguize">供货规则</span>
+   	  			<span class="yunyingfuwu">运营服务</span>
+   	  			<div class="excisionLine2"></div>
+   	  		</div>
+
+
+   	  		<div class="contact col-sm-3">
+   	  			<img src="../image/联系我们.png">
+   	  			<p>联系我们</p>
+   	  			<span class="fuwudianhua">服务电话</span>
+   	  			<span class="weibo">微博</span>
+   	  			<br>
+   	  			<span class="youxiang">邮箱</span>
+   	  			<span class="weixin">微信公众号</span>
+   	  			<div class="excisionLine3"></div>
+   	  		</div>
+
+   	  		<div class="helpCenter col-sm-3">
+   	  			<img src="../image/帮助中心.png">
+   	  			<p>帮助中心</p>
+   	  			<span class="quehuopeifu">缺货赔付</span>
+   	  			<span class="fapiao">发票保障</span>
+   	  			<br>
+   	  			<span class="shouhouguize">售后规则</span>
+   	  			<span class="gouwuzhinan">购物指南</span>
+   	  			<div class="excisionLine4"></div>
+   	  		</div>
+
+   	  	</div>
+</div>
+
+<script type="text/javascript" src="../js商品列表页.js"></script>
+<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</body>
+</html>

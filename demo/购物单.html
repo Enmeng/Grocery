@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>购物单</title>
+	<link rel="stylesheet" type="text/css" href="../css/购物单.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+   <div class="wojiacaishi">
+   	  <img src="../image/logo.png"/>
+   	  <input type="search" class="search">
+   	  <div class="rectangle"><p>搜索</p></div>
+   	  <div class="allProduct">
+   	  	<h1>全部商品</h1>
+   	  <h2>5</h2>
+   	  </div>
+   	  <div class="list">
+   	  	<form name="formGroup" id="formGroup" action="#" method="post" target="_self">  
+        <table border="1" cellpadding="2" cellspacing="1" class="table_hide">  
+            <div class="selAllAndProduct">
+            <tr>  
+                
+                <!-- 复选框单击方式 -->  
+                <input name="" type="checkbox" class="input_hide" onClick="AllCheck (this.form);return false;"  
+                    value=""><strong class="selectAll">全选</strong>
+                    <span class="product">商品</span>
+                    <span class="price">单价（元）</span>
+                    <span class="number">数量</span>
+                    <span class="totalPrice">小计（元）</span>
+                    <span class="operation">操作</span>
+                   </tr>
+            </div>
+            <div class="shop">
+            	<input type="checkbox">
+            	<strong>店铺：那座山旗舰店</strong>
+            </div>
+            <div class="line"><hr></div>
+            <div class="firstSelect">
+            <img src="../image/水果.png">
+             <div><input name="groupCheckbox" type="checkbox" value="" class="input_hide">  
+              </div>  
+                <div class="description"><p>【那座山】&nbsp;梨&nbsp;莱阳梨皇冠梨新鲜水果雪梨山东梨子水果</p>
+               <p class="weight">5斤装</p>
+               </div>
+               <div class="detail">
+               <p>12颗净重6斤</p>
+               <p>单果重约225g-275g</p> 
+               </div>
+               <div class="sumOfPrice">
+               	<p><del>59.90</del></p>
+               	<p>39.90</p>
+               </div>
+               <div class="count">
+               	
+               </div>
+                
+            <hr class="first"> 
+            </div>
+             
+
+
+             <div class="secondSelect">
+            <img src="../image/水果.png">
+             <div><input name="groupCheckbox" type="checkbox" value="" class="input_hide">  
+              </div>  
+                
+                <div class="description1"><p>【那座山】&nbsp;梨&nbsp;莱阳梨皇冠梨新鲜水果雪梨山东梨子水果</p>
+               <p class="weight1">5斤装</p>
+               </div>
+               <div class="detail1">
+               <p>12颗净重6斤</p>
+               <p>单果重约225g-275g</p> 
+               </div>
+               <div class="sumOfPrice1">
+               	<p><del>59.90</del></p>
+               	<p>39.90</p>
+               </div>
+               <div class="count1">
+               	
+               </div>
+                
+            <hr class="second"> 
+            </div>
+
+            
+           <div class="threeSelect">
+            <img src="../image/水果.png">
+             <div><input name="groupCheckbox" type="checkbox" value="" class="input_hide">  
+              </div>  
+                
+                <div class="description3"><p>【那座山】&nbsp;梨&nbsp;莱阳梨皇冠梨新鲜水果雪梨山东梨子水果</p>
+               <p class="weight3">5斤装</p>
+               </div>
+               <div class="detail3">
+               <p>12颗净重6斤</p>
+               <p>单果重约225g-275g</p> 
+               </div>
+               <div class="sumOfPrice3">
+               	<p><del>59.90</del></p>
+               	<p>39.90</p>
+               </div>
+               <div class="count3">
+               	
+               </div>
+                
+            <hr class="three"> 
+            </div>
+
+
+            <div class="fourSelect">
+            <img src="../image/水果.png">
+             <div><input name="groupCheckbox" type="checkbox" value="" class="input_hide">  
+              </div> 
+                
+                <div class="description4"><p>【那座山】&nbsp;梨&nbsp;莱阳梨皇冠梨新鲜水果雪梨山东梨子水果</p>
+               <p class="weight4">5斤装</p>
+               </div>
+               <div class="detail4">
+               <p>12颗净重6斤</p>
+               <p>单果重约225g-275g</p> 
+               </div>
+               <div class="sumOfPrice4">
+               	<p><del>59.90</del></p>
+               	<p>39.90</p>
+               </div>
+               <div class="count4">
+               	
+               </div>
+                
+            <hr class="four"> 
+            </div>
+
+            <div class="secondShop">
+            	<input type="checkbox">
+            	<strong>店铺：那座山旗舰店</strong>
+            </div>
+            <div>
+            	<hr class="secondLine">
+            </div>
+
+            <div class="fiveSelect">
+            <img src="../image/水果.png">
+             <div><input name="groupCheckbox" type="checkbox" value="" class="input_hide">  
+              </div> 
+                
+                <div class="description5"><p>【那座山】&nbsp;梨&nbsp;莱阳梨皇冠梨新鲜水果雪梨山东梨子水果</p>
+               <p class="weight5">5斤装</p>
+               </div>
+               <div class="detail5">
+               <p>12颗净重6斤</p>
+               <p>单果重约225g-275g</p> 
+               </div>
+               <div class="sumOfPrice5">
+               	<p><del>59.90</del></p>
+               	<p>39.90</p>
+               </div>
+               <div class="count5">
+               	
+               </div>
+                
+            <hr class="five"> 
+            </div>
+            
+           <div>
+           	<canvas class="rectangle"></canvas>
+           </div>
+
+            <div class="confirm">
+              <div class="secondSelAll">
+                  <input name="" type="checkbox" class="input_hide" onClick="AllCheck (this.form);return false;"  
+                    value=""><strong>全选</strong> <span class="delete">删除勾选商品</span>
+                    <span class="move">移动我的关注</span>
+                    <span class="haveSelected">已勾选</span> 
+                    <span class="finalNumber">4</span>
+                    <span class="productNumber">件商品</span>
+                    <span class="sumPriceDescription">合计（不含运费）：</span>
+                    <span class="sumPrice">￥159.6</span>
+                    <div class="account">
+                    	<p>去结算</p>
+                    </div>
+              </div> 
+           </div>
+        </table>  
+    </form>  
+   	  </div>
+   	  
+   	  	<div class="relateProductDescriptionl">
+   	  		<div class="division">
+   	  		
+   	  	</div>
+   	  	<p class="relateDescription">
+   	  		相关产品
+   	  	</p>
+   	  	</div>
+   	  	<div class="relateProduct">
+   	  	<div class="part1">
+   	  	<div class="part1Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content1">
+   	  	    <p class="price">￥15.50</p>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part1Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+
+        <div class="part2">
+   	  	<div class="part2Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content2">
+   	  	    <p class="price">￥15.50</p>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part2Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+
+
+
+   	  	<div class="part3">
+   	  	<div class="part3Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content3">
+   	  	    <p class="price">￥15.50</p>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part3Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+        
+        <div class="part4">
+   	  	<div class="part4Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content4">
+   	  	    <p class="price">￥15.50</p>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part4Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+
+
+   	  	<div class="part5">
+   	  	<div class="part5Rectangle">
+           	<canvas ></canvas>
+           </div>
+           <div class="content5">
+   	  	    <p class="price">￥15.50</p>
+   	  		<img src="../image/水果.png">
+   	  		<div class="part5Description">
+   	  			<p>
+   	  				满199减100易家菜园土豆500g/包马铃薯
+   	  			</p>
+   	  		</div>
+   	  		<div class="choice">
+   	  			<img src="../image/购物车.png" class="img1">
+   	  			<img src="../image/购物车.png" class="img2">
+   	  			<img src="../image/购物车.png" class="img3">
+   	  		</div>
+          </div>
+   	  	</div>
+
+
+
+   	  </div>
+   	  <div class="supplyment row">
+        <hr class="thirdLine">
+          <div class="affordMethod col-sm-3">
+            <img src="../image/支付方式.png">
+            <p>支付方式</p>
+            <span class="kuaijie">快捷支付</span>
+            <span class="zhifubao">支付宝</span>
+            <br>
+            <span class="xinyongka">信用卡</span>
+            <span class="huodaofukuan">货到付款</span>
+            <div class="excisionLine1"></div>
+          </div>
+
+            <div class="service col-sm-3">
+            <img src="../image/商家服务.png">
+            <p>商家服务</p>
+            <span class="gonghuo">我要供货</span>
+            <span class="wuliufuwu">物流服务</span>
+            <br>
+            <span class="gonghupoguize">供货规则</span>
+            <span class="yunyingfuwu">运营服务</span>
+            <div class="excisionLine2"></div>
+          </div>
+
+
+          <div class="contact col-sm-3">
+            <img src="../image/联系我们.png">
+            <p>联系我们</p>
+            <span class="fuwudianhua">服务电话</span>
+            <span class="weibo">微博</span>
+            <br>
+            <span class="youxiang">邮箱</span>
+            <span class="weixin">微信公众号</span>
+            <div class="excisionLine3"></div>
+          </div>
+
+          <div class="helpCenter col-sm-3">
+            <img src="../image/帮助中心.png">
+            <p>帮助中心</p>
+            <span class="quehuopeifu">缺货赔付</span>
+            <span class="fapiao">发票保障</span>
+            <br>
+            <span class="shouhouguize">售后规则</span>
+            <span class="gouwuzhinan">购物指南</span>
+            <div class="excisionLine4"></div>
+          </div>
+
+        </div>
+   </div>
+
+  
+  <script src="../js/jquery-3.1.1.min.js"></script> 
+  <script type="text/javascript" src="../js/购物单.js"></script>
+</body>
+</html>

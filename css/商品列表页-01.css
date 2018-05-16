@@ -1,0 +1,354 @@
+/* body{
+  width: 1200px;
+} */
+.leftSide{
+  float: left;
+  
+}
+.logoAndSearch{
+  margin-left: 12%;
+/*   width:1100px; */
+}
+.logoAndSearch>img{
+  background-color:#3DCFB5;
+  width: 180px;
+  vertical-align:middle;
+  float: left;
+  margin-top: 1%;
+}
+.logoAndSearch>input{
+  margin-left: 14%;
+  width: 500px;
+  height: 20px;
+  float: left;
+  border: 2px solid #30C3A7;
+  margin-top: 2%;
+}
+.logoAndSearch>.rectangle{
+  height:26px;
+  width:70px;
+  background-color:#30C3A7;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  float:left;
+/*  margin-left:1%; */
+/*  margin-top: -2%; */
+  margin-top: 2%;
+}
+
+.logoAndSearch>.shoppingCart{
+  float:left;
+  margin-left: 80%;
+  margin-top: -4.5%;
+  width: 170px;
+  height: 26px;
+  background-color: #EEEEEE;
+}
+.logoAndSearch>.shoppingCart>img{
+  margin-left: 28%;
+  margin-top: 2%;
+}
+.logoAndSearch>.shoppingCart>p{
+  margin-top: -12%;
+  font-size: 10px;
+  color: #F38079;
+  margin-left: 48%;
+  
+}
+.logoAndSearch>p{
+ float: left;
+  font-size: 10px;
+    margin-top: -1.5%;
+  margin-left: 29%;
+  opacity: 0.6;
+  width:800px;
+  
+}
+.logoAndSearch>p>span{
+  margin-left: 0.5%;
+  color: #9F9F9F;
+  
+}
+.sort{
+  width: 100%;
+  height:25px;
+  background-color: #3CCFB5;
+  margin-top: 5%;
+}
+.sort>.description{
+  width: 120px;
+  height: 25px;
+  background-color: #21B699;
+  margin-left: 6%;
+  font-size: 12px;
+  color: #fff;
+}
+.sort>.description>span{
+  margin-left: 15%;
+}
+.sort>.description>img{
+  margin-left: 10%;
+  margin-top: 7%;
+  width: 15px;
+}
+.allSort{
+  margin-left: 6%;
+  font-size: 10px;
+  opacity: 0.6;
+  margin-top: -0.5%;
+  float: left;
+}
+.allSort>.descriptionAndImg>img{
+  margin-top: -2%;
+  margin-left: 5%;
+  float: left;
+  width: 6px;
+}
+.allSort>.pickUp{
+  float:left;
+  margin-left: 94%;
+  margin-top: -2%;
+}
+.allSort>.pickUp>canvas{
+  width: 70px;
+  height: 20px;
+  border: 1px solid #EBEBEB;
+  background-color: #F6F6F4;
+/*   float:right;
+  margin-top: -2%;
+  margin-left:90%; */
+}
+.allSort>.pickUp>.content{
+  margin-top: -26%;
+  margin-left: 18%;
+}
+.allSort>.pickUp>.content>img{
+  width: 15px;
+}
+.detial>table{
+  width: 1200px;
+  margin-left: 6%;
+  height: 25px;
+  opacity: 0.6;
+  float: left;
+}
+
+.detial>table>tbody>tr>td>canvas{
+  width: 90px;
+  height: 32px;
+/*   margin-top: -5px; */
+  border: 4px solid #F7F5F6;
+  background-color: #F7F5F6;
+  margin-left: -1px;
+  float: left;
+ 
+}
+.detial>table>tbody>tr>td>.brand,.hotSpot,.province{
+/*   margin-top: -4%; */
+  float: left;
+  margin-top: 1%;
+  margin-left: -6%;
+  font-size: 12px;
+}
+.detial>table>tbody>tr>td>span{
+  float: left;
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 12px;
+}
+.detial>table>tbody>tr>td>.Boption,.Soption,.Poption{
+  width: 30px;
+  height: 15px;
+  border: 1px solid #000;
+  float: left;
+  font-size: 12px;
+  margin-left: 48%;
+  margin-top: 1%;
+}
+.detial>table>tbody>tr>td>.Soption{
+  margin-left: 59.5%;
+}
+.detial>table>tbody>tr>td>.Poption{
+  margin-top: 1%;
+  margin-left: 23.5%;
+}
+.detial>.table2{
+  margin-top: 1%;
+  height: 20px;
+  background-color: #F5F5F5;
+  width: 1200px;
+}
+.detial>.table2>tbody>tr>td{
+   font-size: 12px;
+   float: left;
+   padding-left: 3%;
+   border: 2px solid  #EEEEEE;
+   
+}
+.detial>.table2>tbody>tr>.comprehensive{
+  background-color: #fff;
+  color: #FFB148;
+}
+.list{
+  margin-left: 5.7%;
+  float: left;
+  width: 1200px;
+}
+.part1{
+  width:230px;
+  height: 300px;
+  float: left;
+  margin-top: 1%;
+  margin-left:0.7%;
+}
+.list>.part1>.part1Rectangle{
+  width:230px;
+  height: 300px;
+  border: 1px solid #B2B2B2;
+/*  margin-left: 28%; */
+}
+.list>.part1>.content1{
+/*  margin-top: -309%; */
+  margin-top: -133%;
+}
+.list>.part1>.content1>.price1{
+  color: red;
+  margin-top:2.5%;
+  margin-left: 0.5%;
+  width: 60px;
+  height:25px;
+  background-color:#DDFBF3;
+  border-bottom-right-radius:80%; 
+  border-bottom-left-radius:10%; 
+  float: left;
+  font-size: 14px;
+  
+}
+.list>.part1>.content1>img{
+  margin-left: 12%;
+  margin-top:12%;
+  width: 170px;
+  height: 150px;
+}
+.list>.part1>.content1>.part1Description{
+  background-color: #3ECCB2;
+  width:210px;
+  height:40px;
+  margin-left: 4%;
+ /* margin-top: -2%;*/
+  color: #fff;
+  font-size: 12px;
+}
+.list>.part1>.content1>.choice{
+/*  margin-left: 27%; */
+  float: left;
+  width: 100%;
+}
+.list>.part1>.content1>.choice>img{
+  margin-left: 15%;
+  margin-top:8%;
+}
+
+.page{
+  float: left;
+  /*margin-left:40%;*/
+  padding-left: 22%;
+  margin-top:3%;
+  color:#666666;
+  font-size: 12px;
+   width: 1200px;
+}
+.page>button{
+  background-color: #ECF0F1;
+  border: 1px solid #C6C6C6;
+  width:40px;
+  height: 35px;
+  color:#666666;  
+  
+}
+.page>.lastPage,.page>.nextPage{
+  width: 80px;
+  height: 30px;
+}
+.page>.confirm{
+  width:50px;
+}
+.page>span{
+  margin-left: 2.3%;
+}
+.page>.first{
+  margin-left: 2%;
+}
+.page>.lastPage,.page>.index{
+  background-color: #fff;
+}
+.prompt{
+  float: left;
+  width: 1200px;
+  margin-left: 6%;
+  margin-top: 2%;
+  background-color: #F6F6F6;
+  height: 80px;
+}
+.prompt>p{
+  margin-left: 5%;
+  color: #101010;
+  font-size: 10px;
+  margin-top:2%;
+}
+.prompt>p>span{
+  margin-left: 0.5%;
+  color: #65C9E9;
+}
+.prompt>p>strong{
+  margin-left: 0.5%;
+  color:#BCBCBC;
+}
+.prompt>.search{
+  margin-top: 1%;
+  float: left;
+  color: #101010;
+  font-size: 10px;
+  margin-left: 5%;
+}
+.prompt>.search>span{
+  margin-left: -84%;
+}
+.prompt>.search>input{
+  width: 250px;
+  margin-top: -1%;
+  float: left;
+  margin-left: 17%;
+}
+.prompt>.search>.description{
+  width: 60px;
+  height: 23px;
+  border: 1px solid #30C5A8;
+  float: right;
+/*   margin-left: 10%; */
+  margin-top:-6%;
+  margin-left: 5%;
+  text-align: center;
+  background-color: #30C5A8;
+  color: #fff;
+  font-size: 14px;
+}
+.clearfix{
+  clear: both;
+}
+
+.supplyment{
+  background-color:#EAEAEA;
+  float: left;
+  margin-top:4%;
+  width:100%;
+  height:150px;
+  padding-left: 5%;
+}
+.thirdLine{
+  color: #30C3A7; 
+  margin-top: 0%;
+  border: 2px solid;
+  margin-left: -5%;
+}
